@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 64" width="240" height="64" role="img" aria-labelledby="t">
+<title id="t">Larkspire Physiotherapy</title>
+<path d="M22 6 L34 58 L10 58 Z" fill="#1F7A74"/>
+<path d="M30 20 q8 -8 16 0 q-8 -3 -16 0 Z" fill="#D9654B"/>
+<path d="M38 15 q6 -6 12 0" stroke="#D9654B" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<text x="56" y="36" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="25" font-weight="600" fill="#17324D">Larkspire</text>
+<text x="57" y="54" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" letter-spacing="2.6" fill="#1F7A74">PHYSIOTHERAPY</text>
+</svg>

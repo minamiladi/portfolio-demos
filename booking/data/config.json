@@ -1,0 +1,22 @@
+{
+ "name": "Larkspire Physiotherapy",
+ "timezone": "Europe/London",
+ "currency": "gbp",
+ "phone": "0117 496 0418",
+ "last_bookable_date": "2027-03-31",
+ "hold_minutes": 15,
+ "full_refund_hours": 24,
+ "ga4_measurement_id": "",
+ "physios": {
+  "maren": {
+   "name": "Maren Lockwood",
+   "title": "Senior Physiotherapist (MCSP)"
+  },
+  "idris": {
+   "name": "Idris Penhaligon",
+   "title": "Sports Physiotherapist (MCSP)"
+  }
+ },
+ "demo_first": "2026-11-11",
+ "demo_last": "2027-03-31"
+}

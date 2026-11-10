@@ -1,0 +1,8 @@
+{
+ "address": "2 Larkspire Yard, Whiteladies Gate, Bristol",
+ "contact_email": "hello@larkspire-physio.example",
+ "rooms": {
+  "maren": "Room 1",
+  "idris": "Room 2"
+ }
+}

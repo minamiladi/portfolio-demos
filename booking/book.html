@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Book your physio appointment online - Larkspire Physiotherapy (demo)</title>
+<meta name="description" content="Book a physiotherapy appointment at Larkspire Physiotherapy in Clifton, Bristol: choose a treatment, a physio and a time, and pay a small deposit by card.">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/site.css">
+<link rel="stylesheet" href="css/demo.css">
+</head>
+<body>
+<div class="demo-bar" role="note"><span><b>Demo project:</b> a fictional clinic, not a real business. Booking here is simulated: no payment is taken and nothing is sent.<span id="demo-cal" hidden></span></span></div>
+<header class="site">
+  <div class="wrap">
+    <a href="index.html"><img src="img/logo.svg" alt="Larkspire Physiotherapy" width="180" height="48"></a>
+    <nav aria-label="Main">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Treatments & prices</a></li>
+      <li><a href="team.html">Our team</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="book.html" aria-current="page">Book online</a></li>
+    </ul>
+    </nav>
+    <a class="cta" href="tel:+441174960418">Call 0117 496 0418</a>
+  </div>
+</header>
+<main>
+<section>
+  <div class="wrap book">
+    <h1>Book your physio appointment online</h1>
+    <p class="lead">Choose your treatment, pick a physio and a time that suits you, and pay a small deposit by card to confirm your appointment. The deposit comes off your bill on the day.</p>
+    <ol class="steps" aria-label="The four steps">
+      <li>Choose a treatment</li>
+      <li>Pick your physio and a time</li>
+      <li>Your details (name, email, mobile, reason for your visit)</li>
+      <li>Pay your deposit</li>
+    </ol>
+    <noscript><p class="msg err">Online booking needs JavaScript. Please call us on <a href="tel:+441174960418">0117 496 0418</a> to book.</p></noscript>
+    <p id="notice" class="msg err" role="alert" hidden></p>
+    <form id="booking-form" novalidate>
+      <fieldset id="step-treatment">
+        <legend>1. Choose a treatment</legend>
+        <div id="treatments" class="choices"><p>Loading treatments...</p></div>
+      </fieldset>
+      <fieldset id="step-time" disabled>
+        <legend>2. Pick your physio and a time</legend>
+        <div class="fields">
+          <label class="f" for="physio">Physio
+            <select id="physio"><option value="">Any physio</option></select>
+          </label>
+          <label class="f" for="date">Day
+            <input type="date" id="date">
+          </label>
+        </div>
+        <p id="searching" class="note" role="status" hidden>Looking for the next free day...</p>
+        <div id="times" class="times" role="group" aria-label="Free times (UK time)"></div>
+        <p id="no-times" class="note" role="status" hidden>There are no free times that day. Please try another day, or another physio.</p>
+      </fieldset>
+      <fieldset id="step-details">
+        <legend>3. Your details</legend>
+        <div class="fields">
+          <label class="f" for="name">Full name
+            <input id="name" name="name" autocomplete="name" required maxlength="100">
+          </label>
+          <label class="f" for="email">Email
+            <input id="email" name="email" type="email" autocomplete="email" required maxlength="200">
+          </label>
+          <label class="f" for="phone">Mobile
+            <input id="phone" name="phone" type="tel" autocomplete="tel" required maxlength="40">
+          </label>
+          <label class="f" for="reason">Reason for your visit <span class="hint">(optional)</span>
+            <select id="reason"><option value="">Prefer not to say</option></select>
+          </label>
+        </div>
+        <p class="policy">Please do not put medical details in any box: your physio will talk with you about your health at your first appointment.</p>
+      </fieldset>
+      <p id="summary" class="note" role="status" aria-live="polite" hidden></p>
+      <p class="policy">The deposit is taken by card on Stripe's secure payment page, and your time is held for <span id="hold">15</span> minutes while you pay. Your appointment is confirmed when the deposit is paid. Cancel at least 24 hours before your appointment and we refund your deposit in full; if you cancel later, or do not come, we keep it.</p>
+      <p><button id="pay" class="cta" type="submit" disabled>Pay deposit and book</button></p>
+    </form>
+    <p>Questions? Call us on <a href="tel:+441174960418">0117 496 0418</a>.</p>
+  </div>
+</section>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <p><strong>Larkspire Physiotherapy</strong> · 2 Larkspire Yard, Whiteladies Gate, Bristol · <a href="tel:+441174960418">0117 496 0418</a> ·
+    <a href="mailto:hello@larkspire-physio.example">hello@larkspire-physio.example</a></p>
+    <p>Mon-Fri 08:30-18:30 (closed 13:00-14:00) · Sat 09:00-13:00 · © 2026 Larkspire Physiotherapy</p>
+  </div>
+</footer>
+<script src="js/demo-api.js" data-ga="start"></script>
+<script src="js/tracking.js"></script>
+<script src="js/booking.js"></script>
+</body>
+</html>

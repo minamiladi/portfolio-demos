@@ -1,0 +1,67 @@
+{
+ "services": [
+  {
+   "id": "initial",
+   "name": "Initial assessment & treatment",
+   "minutes": 60,
+   "price_pence": 7500,
+   "deposit_pence": 2500,
+   "practitioners": [
+    "maren",
+    "idris"
+   ]
+  },
+  {
+   "id": "followup",
+   "name": "Follow-up treatment",
+   "minutes": 40,
+   "price_pence": 5800,
+   "deposit_pence": 2000,
+   "practitioners": [
+    "maren",
+    "idris"
+   ]
+  },
+  {
+   "id": "sports",
+   "name": "Sports injury assessment",
+   "minutes": 60,
+   "price_pence": 8200,
+   "deposit_pence": 2500,
+   "practitioners": [
+    "idris"
+   ]
+  },
+  {
+   "id": "acupuncture",
+   "name": "Acupuncture & treatment",
+   "minutes": 45,
+   "price_pence": 6200,
+   "deposit_pence": 2000,
+   "practitioners": [
+    "maren"
+   ]
+  },
+  {
+   "id": "massage",
+   "name": "Sports massage",
+   "minutes": 45,
+   "price_pence": 5500,
+   "deposit_pence": 1500,
+   "practitioners": [
+    "maren",
+    "idris"
+   ]
+  },
+  {
+   "id": "gait",
+   "name": "Running gait analysis",
+   "minutes": 90,
+   "price_pence": 12000,
+   "deposit_pence": 4000,
+   "practitioners": [
+    "idris"
+   ]
+  }
+ ]
+}

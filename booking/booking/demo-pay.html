@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Demo payment step - Larkspire Physiotherapy (demo)</title>
+<meta name="description" content="Demo only: the step that stands in for the card payment in this portfolio demo. No payment is taken.">
+<meta name="robots" content="noindex">
+<link rel="icon" href="../img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../css/site.css">
+<link rel="stylesheet" href="../css/demo.css">
+</head>
+<body>
+<div class="demo-bar" role="note"><span><b>Demo project:</b> a fictional clinic, not a real business. Booking here is simulated: no payment is taken and nothing is sent.<span id="demo-cal" hidden></span></span> <a href="../book.html">Try online booking</a></div>
+<header class="site">
+  <div class="wrap">
+    <a href="../index.html"><img src="../img/logo.svg" alt="Larkspire Physiotherapy" width="180" height="48"></a>
+    <nav aria-label="Main">
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../services.html">Treatments & prices</a></li>
+      <li><a href="../team.html">Our team</a></li>
+      <li><a href="../faq.html">FAQ</a></li>
+      <li><a href="../contact.html">Contact</a></li>
+      <li><a href="../book.html">Book online</a></li>
+    </ul>
+    </nav>
+    <a class="cta" href="tel:+441174960418">Call 0117 496 0418</a>
+  </div>
+</header>
+<main>
+<section>
+  <div class="wrap pagebox">
+    <p class="demo-tag">Demo step</p>
+    <h1>Demo payment step</h1>
+    <div class="demo-pay">
+      <p class="demo-lead">In the live version this opens Stripe's secure checkout (test mode). Demo: no payment is taken.</p>
+      <p class="demo-small">No card details are asked for on this page, and nothing is sent anywhere.</p>
+    </div>
+    <p id="state" class="msg ok" role="status" aria-live="polite">Loading your booking...</p>
+    <dl id="facts" class="facts" hidden></dl>
+    <div id="actions" class="demo-btns" hidden>
+      <button id="pay" class="cta" type="button">Simulate a successful test payment</button>
+      <a id="back" class="cta demo-secondary" href="cancelled.html">Go back without paying</a>
+    </div>
+    <p id="again" hidden><a class="cta" href="../book.html">Back to online booking</a></p>
+    <p class="demo-small">What happens next in the live version: the clinic's server asks Stripe whether the deposit is paid, then
+      confirms the booking, sends one confirmation email and records the booking in HubSpot. The next page shows all of that, simulated.</p>
+  </div>
+</section>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <p><strong>Larkspire Physiotherapy</strong> · 2 Larkspire Yard, Whiteladies Gate, Bristol · <a href="tel:+441174960418">0117 496 0418</a></p>
+    <p>Mon-Fri 08:30-18:30 (closed 13:00-14:00) · Sat 09:00-13:00 · © 2026 Larkspire Physiotherapy</p>
+  </div>
+</footer>
+<script src="../js/demo-api.js"></script>
+<script src="../js/demo-pay.js"></script>
+</body>
+</html>

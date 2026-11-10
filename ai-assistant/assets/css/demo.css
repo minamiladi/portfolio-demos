@@ -1,0 +1,20 @@
+/* Demo additions (portfolio copy): the demo bar, the demo-only form message and the source pages. */
+.demo-bar{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:6px 14px;padding:8px 16px;background:#1d2731;color:#fff;font-size:14px;line-height:1.4;text-align:center}
+.demo-bar .demo-try{border:1px solid #fff;background:transparent;color:#fff;border-radius:999px;padding:4px 14px;font:inherit;font-weight:700;cursor:pointer}
+.demo-bar .demo-try:hover,.demo-bar .demo-try:focus-visible{background:rgba(255,255,255,.18)}
+.demo-bar .demo-try:focus-visible{outline:3px solid #e4572e;outline-offset:2px}
+.demo-sent{margin:10px 0 0;padding:8px 12px;border-radius:8px;background:#e6f2e6;color:#1b4d1b;max-width:420px}
+section:target,.src-item:target{outline:3px solid var(--coral);outline-offset:4px;border-radius:6px}
+section,.src-item{scroll-margin-top:16px}
+.src-note{font-size:.9rem;color:#4b5560;background:var(--sand);border-radius:8px;padding:8px 12px;margin:0 0 8px}
+.src-item{display:block;background:#fff;border:1px solid var(--line);border-radius:10px;padding:10px 14px;margin:0 0 10px}
+.src-item h3{margin:4px 0 2px;font-size:1rem}
+.src-item p{margin:0 0 6px}
+.src-item .loc{display:inline-block;font-size:.8rem;font-weight:700;color:#5b6670;margin-inline-end:8px}
+.src-item div[dir=rtl]{font-family:"Noto Sans Arabic",Tahoma,Arial,sans-serif;margin-top:6px;padding-top:6px;border-top:1px dashed var(--line)}
+.table-wrap{overflow-x:auto}
+table.rates{border-collapse:collapse;width:100%;background:#fff;font-size:.92rem}
+table.rates th,table.rates td{border:1px solid var(--line);padding:6px 8px;text-align:start;white-space:nowrap}
+table.rates th{background:var(--sand)}
+main{overflow-wrap:anywhere}
+@media (max-width:640px){table.prices{display:block;overflow-x:auto}}
